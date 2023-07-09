@@ -9,7 +9,7 @@ class Navbar extends Component{
                 <ul className="nav-menu">
                     <li>
                         <Link>
-                           Home 
+                           <i></i> Home 
                         </Link>
                     </li>
                 </ul>
