@@ -1,7 +1,16 @@
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import AboutImg from "../assets/night.jpg";
+
+
 export default function About() {
     return (
         <div>
-            <h1>about</h1>
+            <Navbar />
+            <Hero cName="hero-mid"
+            heroImg={AboutImg}
+            title="About"
+            btnClass="hide"/>
         </div>
     )
 }

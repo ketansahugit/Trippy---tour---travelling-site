@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import Destination from "../components/Destination";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
             buttonText="Travel Plan"
             url="/"
             btnClass="show"/>
+            <Destination />
         </div>
     )
 }
