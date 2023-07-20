@@ -1,6 +1,8 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import AboutImg from "../assets/2.jpg";
+import Footer from "../components/Footer";
+import ContactForm from "../components/ContactForm";
 
 export default function Contact() {
     return (
@@ -10,6 +12,8 @@ export default function Contact() {
             heroImg={AboutImg}
             title="Contact"
             btnClass="hide"/>
+            <ContactForm />
+            <Footer />
         </div>
     )
 }
